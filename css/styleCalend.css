@@ -1,0 +1,103 @@
+
+.logodoro3 {
+  display: block;  
+  text-align: center;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+font-family:'Alex Brush', cursive;
+  position: relative;  
+font-size:calc(12px + 3vw);
+  margin: 0;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: goldenrod;
+}
+
+.logodoro3:after {
+    background: none;
+    left: 0;
+  top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+    -1px 0 1px #c6bb9f, 
+    0 1px 1px #c6bb9f, 
+    5px 5px 10px rgba(0, 0, 0, 0.4),
+    -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly safe;
+}
+
+
+.future {
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  width: 265px;
+  margin:  5px;
+  padding: 2% 1% 0 1%;
+  background-color:seashell;
+  text-align: center;
+}
+
+.card-img {
+  height: 130px;
+}
+
+.passate {
+  margin:auto;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 3%;
+  color:darkslategray;
+  background-color:aliceblue;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.7)
+
+}
+
+.goglemap {
+	display:none;
+}
+
+.mostra:hover {
+	color: red;
+	transition: left 0.8s ease;
+}
+
+div.mostra:hover .goglemap {
+	display: inline;
+	transition: right 0.8s ease;
+}
+
+
+.mappe {
+	width: 300px;
+	height: 300px;
+	  margin: auto;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 3%;
+  background-color:seashell;
+}
+
+.invisible {
+	display: none;
+}
+
+.visible {
+	display: inline;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}

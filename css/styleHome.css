@@ -1,0 +1,97 @@
+
+.cards{
+  
+  position: relative;
+  animation-name: move;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+
+}
+
+@keyframes move {
+  0%   {left: 1000px;}
+  100%   {left: -1300px;}
+}
+
+
+.cards:hover{
+animation-play-state: paused;
+
+}
+
+
+ .scroll {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 3%;
+
+}
+
+.card-img {
+  width: 100%;
+  height: 100px;
+  
+}
+
+.future {
+  display: inline-block;
+  margin: 5px;
+  width: 260px;
+  border: 6px solid goldenrod;
+  border-radius: 15px;
+  padding: 2% 0 2% 0; 
+  background-color:seashell;
+  text-align: center;
+  }  
+
+
+
+
+  .jumbotron {
+  background-image: url("../img/trio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    border: 4px solid goldenrod;
+  border-radius: 15px;
+  padding: 3px 10px 3px 10px;
+    color: white;
+    min-height: 80%;  
+  min-height: 80vh; 
+  display: flex;
+  align-items: flex-end;
+} 
+
+.jumbotext {
+  background-image: linear-gradient(to bottom, transparent ,rgba(31, 31, 31,0.4) ,transparent);
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.giornale {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 574px) {
+  .jumbotron {
+  background-image: url("img/bella.jpg");}
+
+}

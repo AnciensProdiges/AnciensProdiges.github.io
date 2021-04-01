@@ -1,0 +1,325 @@
+body {
+background: 
+    linear-gradient(to bottom, rgba(48, 63, 159,0.5)  100%, rgb(107, 113, 212) 0%), 
+    url('../img/hero.jpg') 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+} 
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  border-left: 3px solid goldenrod;
+  border-right: 3px solid goldenrod;
+  border-bottom: 3px solid goldenrod;
+  border-radius: 0px 0px 15px 15px;
+  padding: 1%;
+  background-color:rgba(57, 65, 198,0.5)  ;
+   z-index: 1;
+}
+
+header {
+  display: flex;  
+  justify-content: center;
+}
+
+.logo {
+  display: inline-block;  
+  text-align: center;
+}
+
+.logodoro {
+  display: block;  
+  text-align: center;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+font-family: 'Oswald', sans-serif;
+  position: relative;
+  text-transform: uppercase;  
+  font-size: 4vw;
+  margin: 0;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: goldenrod;
+}
+
+.logodoro:after {
+    background: none;
+    left: 0;
+  top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+    -1px 0 1px #c6bb9f, 
+    0 1px 1px #c6bb9f, 
+    5px 5px 10px rgba(0, 0, 0, 0.4),
+    -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logodoro2 {
+  display: block;  
+  text-align: center;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+font-family:'Alex Brush', cursive;
+  position: relative;  
+  font-size: 3vw;
+  margin: 0;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: goldenrod;
+}
+
+.logodoro2:after {
+    background: none;
+    left: 0;
+  top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+    -1px 0 1px #c6bb9f, 
+    0 1px 1px #c6bb9f, 
+    5px 5px 10px rgba(0, 0, 0, 0.4),
+    -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logodoro3 {
+  display: block;  
+  text-align: center;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+font-family:'Alex Brush', cursive;
+  position: relative;  
+font-size:calc(12px + 3vw);
+  margin: 0;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: goldenrod;
+}
+
+.logodoro3:after {
+    background: none;
+    left: 0;
+  top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+    -1px 0 1px #c6bb9f, 
+    0 1px 1px #c6bb9f, 
+    5px 5px 10px rgba(0, 0, 0, 0.4),
+    -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+.navbar {
+    display: flex;
+      background-color: transparent ;
+      justify-content: center;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 10px; /* required */
+      z-index: 5;
+}
+
+.navbar2 {
+      display: none;
+}
+
+.nav-centro {
+       background-color: rgba(57, 65, 198,0.8) ;
+       padding: 2px;
+}
+
+.nav-ovest {
+      background-color: rgba(57, 65, 198,0.8) ;
+      border-radius: 15px 0px 0px 15px;
+      padding: 2px;
+}
+
+.nav-est {
+      background-color: rgba(57, 65, 198,0.8) ;
+      border-radius: 0px 15px 15px 0px;
+      padding: 2px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.active{
+  color: darkgoldenrod;
+}
+
+.nav-link:hover{
+  color: goldenrod;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(57, 65, 198,0.8) ;
+  border: none; 
+  border-radius: 15px;
+  transition: all 2s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+ 
+ .dropdown-item {
+  color: white;
+  background-color: transparent;
+ }
+
+.dropdown-item:hover {
+  color: goldenrod;
+  background-color: transparent;
+
+} 
+
+.content {
+  width: 92%;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.line {
+  width: auto;
+  height: 2px;
+  background-color: goldenrod;
+  margin: 10px 5px 10px 5px;
+}
+
+footer {
+
+   text-align: right;
+   color: darkgoldenrod;
+}
+
+
+
+
+
+ 
+
+@media screen and (max-width: 574px) {
+
+main {
+  width: 80%;
+  margin-top: -310px;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-bottom: 4%;
+  border-left: 2px solid goldenrod;
+  border-right: none;
+  border-bottom: 2px solid goldenrod;
+  border-radius: 0px 0px 0px 15px;
+  padding: 1%;
+  background-color:rgba(57, 65, 198,0.5)  ;
+    z-index: 2;
+}  
+
+.logodoro {
+  
+  font-size: 5vw;
+  
+}
+
+
+.navbar {
+    display: none;
+}
+
+.navbar2 {
+    display: flex;
+    text-align: center;
+    left: 0px;
+      background-color: transparent;
+      justify-content:left ;
+      color: black;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0px; /* required */
+      z-index: 1;
+}
+
+.nav-ovest {
+      border-right: 2px solid goldenrod;
+      background-color: seashell;
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 0px 0px 0px 0px;  
+      box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
+}
+
+.nav-centro {
+      border-right: 2px solid goldenrod;
+      background-color: seashell;
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 0px 0px 0px 0px;  
+        z-index: 1;
+      box-shadow: 6px 6px 4px  rgba(0, 0, 0, 0.3)
+}
+
+.nav-est {
+      border-right:  2px solid goldenrod;
+      border-bottom: 2px solid goldenrod;
+      background-color: seashell;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-bottom: 10px;
+      border-radius: 0px 0px 15px 0px;
+        z-index: 1;
+      box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5)
+
+} 
+
+.nav-link{
+  color: rgb(57, 65, 198) ;
+}
+
+.active{
+  color: darkgoldenrod;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: none;
+}
+
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 1200px) {
+
+}
+@media screen and (min-width:1201px) {
+ 
+}

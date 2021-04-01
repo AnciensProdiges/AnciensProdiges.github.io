@@ -1,0 +1,32 @@
+var crew = [
+   {
+     "name": "Ferdinanda Onofrio",
+     "pic": "img/ferdi.jpg",
+     "descr": "Nata in una famiglia di artisti circensi e burattinai -sorella, figlia, nipote e pronipote di acrobati e clowns-  debutta ancora bimba come contorsionista e trapezista. A tredici anni divenne aiuto-burattinaia aiutando papà e nonno durante i loro spettacoli.  Ha un fratello burattinaio professionista per cui ha scritto otto commedie a tema comico-favolistico; e che aiuta in occasioni speciali recitando e curando la regia.  Si è diplomata alla Scuola dell’Attore dell’Associazione culturale “Il Nodo Teatro” ed ha partecipato a molti spettacoli, tra cui: Molto rumore per nulla, Nozze di sangue, Donne, Lapidi, Le Vedove Allegre.",
+     "descr2":"Per lungo tempo ha tenuto lezioni di clownerie teatrale e giocoleria presso la stessa scuola in cui si è diplomata; ed ora recita per diletto presso la “Compagnìa de Riultèla”, in dialetto bresciano. Assieme al marito fonda Il TeatroBuffo degli Ancients Prodiges.",
+     "motto":"lollol"
+   },{
+     "name": "Achille Marai",
+     "pic": "img/achi.jpg",
+     "descr": "Si annoda alla compagnia teatrale Il Nodo Teatro  nel 2003,  iscrivendosi alla Scuola dell’Attore e partecipando in seguito ai molti spettacoli, tra cui Lapidi, Le Vedove Allegre, Molto rumore per nulla.Fa parte, da qualche anno, anche della “Compagnìa de Riultèla”, recitando in dialetto bresciano e desenzanese.",
+     "descr2":"Assieme alla moglie fonda “Il TeatroBuffo”, riesumando l’antica passione per l’arte circense alla quale si era accostato appena ventenne e poi, per motivi di lavoro, aveva dovuto abbandonare per trenta anni.",
+     "motto":"prova"  
+   },{
+     "name": "Giuseppina Sacco",
+     "pic": "img/giusi.jpg",
+     "descr": "Dalla formazione umanistica, ha sempre amato leggere e scrivere, sia testi di poesia, sia testi di prosa. La passione per la lettura interpretata le fa conoscere nel 2006 la Scuola dell’Attore dell’Associazione culturale “Il Nodo Teatro”che frequenta, prima con curiosità e, poi, con interesse e passione, fino al 2009, recitando poi in diverse rappresentazioni teatrali. Fa parte, da qualche anno, anche della “Compagnìa de Riultèla”, recitando in dialetto bresciano.",
+     "descr2":"Negli anni 2014 – 2015 – 2016 frequenta un laboratorio di drammaturgia tenuto dalla drammaturga Letizia Russo. Nel 2016 completa la drammaturgia del monologo autobiografico de “Il Viaggio di Ida”, interpretandolo in diverse repliche (Regia di Francesco Buffoli e Daniele Bottini). Tradotto in portoghese, ne ha tenuto la lettura interpretata a Porto Alegre nel novembre del 2016.",
+     "motto":"Il teatro ha alzato il sipario su un mondo nuovo, da scoprire ogni volta che si entra in un personaggio."
+   },{
+     "name": "Valeria Bisoni",
+     "pic": "img/vale.png",
+     "descr": "Il primo incontro con il teatro risale all’età di 12 anni grazie alla collaborazione della scuola media con il Teatro Olimpico di Vicenza. Qualche anno dopo frequenta nella sua città di origine un corso di mimo con il primo allievo di Marcel Marceau. Dopo una pausa molto lunga riprende la sua formazione teatrale presso la Scuola dell’attore nell’anno accademico 2000-2001, frequentando tutti e tre gli anni. Inizia così la sua collaborazione con la Compagnia Il Nodo Teatro, con la quale inizia una collaborazione continuativa in numerose produzioni come interprete, assistente alla regia, traduttrice, assistente alla traduzione e non ultimo la regia (lettura interpretata) fino al 2011. Nel 2006 inizia anche una collaborazione con la Compagnia Rapoceldone Teatro effettuando incursioni nel teatro dialettale bresciano e mettendosi alla prova in una “lingua” che non è nelle sue radici, con varie interpretazioni, oltre a seguire la regia dello spettacolo “Furtuna che ghè i dutur” di Maria Mangano (2009). Sempre con la compagnia dialettale si cimenta nel monologo “Grimilde” di Stefano Benni (2007) ottenendo un ottimo risultato di critica e di pubblico.",
+     "descr2":"Nel 2016 Ferdinanda la vuole come Artemisia in “Ognuno gode nelle lenzuola che trova”, detto, fatto! e Anciens Prodiges sia!",
+     "motto":"hurra!"
+   },{
+     "name": "Adolfo Civolani",
+     "pic": "img/civo.jpg",
+     "descr": "Dalla preparazione elettrotecnica, ha svolto lavori in diversi settori. Dall'edilizia alla metalmeccanica e poi all'elettrotecnica.Appassionato di fotografia, ama leggere ed apprendere nell’ambito della Scienza e della Tecnica.",
+     "descr2":"Da qualche anno si è avvicinato al Teatro per dare il proprio contributo tecnico.",
+     "motto":"mmmmmumble"
+   }];

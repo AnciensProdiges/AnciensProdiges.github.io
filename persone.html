@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css" integrity="sha384-zEpdAL7W11eTKeoBJK1g79kgl9qjP7g84KfK3AZsuonx38n8ad+f5ZgXtoSDxPOh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleBase.css">
+    <link rel="stylesheet" href="css/stylePersone.css">
+
+    <title>TeatroBuffo degli Anciens Prodiges</title>
+  </head>
+  <body>
+  		  		<nav class="navbar2 navbar-expand-sm">
+		<div>
+	  		<ul class="navbar-nav">
+	  			<li class="nav-item nav-ovest">
+	      		     <div class="logo">
+    				<a class="navbar-brand" href="#">
+    				<img src="img/logoNero.png" alt="Logo" style="width:42px;"></a>
+  					</div>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link" href="index.html">Home</a>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link" href="calendario.html">Calendario</a>
+	    		</li>
+	    		<li class="nav-item nav-centro dropdown">
+	      		<a class="nav-link" href="repertorio.html">Repertorio</a>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link" href="galleria.html">Galleria</a>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link active" href="persone.html">Chi siamo</a>
+	    		</li>
+	     		<li class="nav-item nav-est">
+	      		<a class="nav-link" href="contatti.html">Contatti</a>
+	    		</li> 
+	  		</ul>
+		</div>
+		</nav>	
+  	<main>
+  	<header id="header">    
+  		<div class="logo"> 
+	    	<img src="img/logoBianco.png" alt="Logo" style="width:44px;"> 
+	    	<h2 class="logodoro2">Teatro Buffo degli</h2>
+	    	<h1 class="logodoro"><b>Anciens Prodiges</b></h1>
+	  	</div>
+	  </header>
+	    <nav class="navbar navbar-expand-sm">
+		<div>
+	  		<ul class="navbar-nav">
+	    		<li class="nav-item nav-ovest">
+	      		<a class="nav-link" href="index.html">Home</a>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link" href="calendario.html">Calendario</a>
+	    		</li>
+	    		<li class="nav-item nav-centro dropdown">
+	      		<a class="nav-link" href="repertorio.html">Repertorio</a>
+	      			<div class="dropdown-menu">
+	        			<a class="dropdown-item" href="repertorio.html#cirib">Ciribiribin Show</a>
+	        			<a class="dropdown-item" href="repertorio.html#ridom">Ridom en dialet</a>
+	        			<a class="dropdown-item" href="repertorio.html#istri">Istrigonia</a>
+	        			<a class="dropdown-item" href="repertorio.html#ognuno"><small>Ognuno gode nelle lenzuola che trova </small></a>
+	        			<a class="dropdown-item" href="repertorio.html#ida">Il viaggio di Ida</a>
+	        			<a class="dropdown-item" href="repertorio.html#special">Speciali</a>
+	      			</div>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link" href="galleria.html">Galleria</a>
+	    		</li>
+	    		<li class="nav-item nav-centro">
+	      		<a class="nav-link active" href="persone.html">Chi siamo</a>
+	    		</li>
+	     		<li class="nav-item nav-est">
+	      		<a class="nav-link" href="contatti.html">Contatti</a>
+	    		</li> 
+	  		</ul>
+		</div>
+		</nav>	
+		</div>
+	<div class="content">
+
+   <div class="d-flex flex-wrap justify-content-center"> 
+
+  <script type="text/javascript"  src="json/persone.json"></script>
+
+   <script>
+
+   for (var i = 0; i < crew.length; i++) {
+
+       var obj = crew[i];
+
+       document.write ("<div class='cards'><div class='card front'><img class='card-img' src='"+ obj.pic + "' alt='"+ obj.name +"'><div class='card-img-overlay shade text-center'><h5 class='card-title'>"+ obj.name + "</h5></div></div> <div class='card back'> <h3 class='card-title'>"+obj.name+"</h3><p class='card-text'><small>"+obj.descr+"<br>"+obj.descr2+"</small></p></div></div>");
+   }
+   </script>
+
+    <div class='cards'>
+      <div class='card front'>
+        <img class='card-img' src='img/trio.jpg' alt='altri'>
+        <div class='card-img-overlay shade text-center'><h5 class='card-title'> Amici & Familiari</h5>
+        </div>
+      </div> 
+      <div class='card back'> 
+        <h3 class='card-title'>Amici e Familiari</h3>
+        <p class='card-text'><small> Molte persone hanno aiutato <br> L`elenco sarebbe troppo esteso per riportare tutti i nomi!  </small></p>
+    </div>
+  	</div>
+  	</main>
+
+  	<footer>
+  		<p>Questo sito é stato realizzato da Fulvia Marai, 2020.</p>
+  	</footer>
+
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
