@@ -223,7 +223,24 @@ footer {
    color: darkgoldenrod;
 }
 
-
+.etichetta {
+  color: red;
+  font-size:22px;
+  font-variant:small-caps;
+  font-weight:bolder;
+  background-color: transparent;
+  position:relative; 
+  left:55px; 
+  top:15px;
+              -ms-transform: rotate(20deg);
+            
+            /* Safari */
+            -webkit-transform: rotate(20deg);
+            
+            /* Standard syntax */
+            transform: rotate(20deg);
+  z-index: 5;
+}
 
 
 
