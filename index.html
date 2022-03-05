@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styleHome.css">
    
 
-    <title>TeatroBuffo degli Anciens Prodiges</title>
+    <title>PalcoComico</title>
   </head>
 
   <body>
@@ -52,8 +52,8 @@
   	<header id="header">    
   		<div class="logo"> 
 	    	<img src="img/logoBianco.png" alt="Logo" style="width:44px;"> 
-	    	<h2 class="logodoro2">Teatro Buffo degli</h2>
-	    	<h1 class="logodoro"><b>Anciens Prodiges</b></h1>
+	    	<h2 class="logodoro">PALCOCOMICO</h2>
+	    	<h1 class="logodoro2"><b>Teatro Buffo degli Anciens Prodiges</b></h1>
 	  	</div>
 	  </header>
 	    <nav class="navbar navbar-expand-sm">
@@ -98,6 +98,27 @@
   <p style="text-align:right;size:1vw;">Siamo una piccola compagnia di attori di teatro e tecnici di palcoscenico amatoriali, rigorosamente over 60, che -dopo anni di esperienza nei grandi classici e nelle commedie dialettali in altre compagnie- hanno deciso di mettere in scena spettacoli comici di propria produzione: testi moderni ed originali che strizzano però l'occhietto alla nobile arte della clownerie, della commedia farsesca ed altre forme di intrattenimento tradizionale. I nostri spettacoli sono studiati per essere apprezzati da tutti, adulti e bambini dai 3 ai 120 anni.</p>
 </div>
 </div>
+	<div>
+
+		 <script type="text/javascript"  src="json/repliche.json"></script>
+		 	 <script>
+
+	 	function CompareDate() {    
+    		var todayDate = new Date(); //Today Date    
+           	var dateJason = new Date(obj.data);      
+	 
+           	if (todayDate < dateJason) {    
+               document.write("");    
+            } else if (todayDate > dateJason) {    
+                document.write("");  
+            } else {    
+               document.write("<div class='line'></div><h2 class='logodoro3' style='text-align:left;'>Oggi in scena!</h2></a><div class='card present' id='"+obj.id+"'><h4><a href="+obj.link+">"+obj.titolo+"</a></h4><a href="+obj.link+"><img class='card-img' src='"+ obj.pic + "'></a><p><br><b>"+obj.giorno+" "+obj.mese+", "+" alle ore "+obj.orario+"</b><br>"+obj.presso+"<br><span class='mostra'data-target='#my"+obj.id+"'><i>"+obj.indirizzo+"<br>"+obj.città+"</i></span></p></div>");    
+       		 } CompareDate(); }
+
+       		</script> 
+
+	</div>
+
 
 		<div class="line"></div>
 
@@ -114,12 +135,12 @@ Prossimi appuntamenti</h2></a>
 <div class="cards">
 
 	 		<script>
+
 	 			function repliche_sort(a, b) {
-    			return new Date(a.data).getTime() - new Date(b.data).getTime();
+    			return new Date(b.data).getTime() - new Date(a.data).getTime();
 				}
 
 			repliche.sort(repliche_sort);
-
 
 			for (var i = 0; i < repliche.length; i++) {
 			var obj = repliche[i];
@@ -127,11 +148,12 @@ Prossimi appuntamenti</h2></a>
        		function CompareDate2() {    
            	var todayDate = new Date(); //Today Date    
            	var dateJason = new Date(obj.data);    
+
            	if (todayDate < dateJason) {    
-               document.write("<div class='card future' id='"+obj.id+"'><h4><a href="+obj.link+"><b>"+obj.titolo+"</b></a></h4><a href="+obj.link+"><img class='card-img' src='"+ obj.pic + "'></a><p><br><b>"+obj.giorno+" "+obj.mese+", "+" alle ore "+obj.orario+"</b><br><small>"+obj.presso+"<br><span class='mostra'data-target='#my"+obj.id+"'><i>"+obj.indirizzo+"<br>"+obj.città+"</i></small></span></p></div>");    
-			}else {    
-                document.write("");    
-            }    
+               document.write("<div class='card future' id='"+obj.id+"'><h4><a href="+obj.link+">"+obj.titolo+"</a></h4><a href="+obj.link+"><img class='card-img' src='"+ obj.pic + "'></a><p><br><b>"+obj.giorno+" "+obj.mese+", "+"alle ore "+obj.orario+"</b><br>"+obj.presso+"<br><span class='mostra'data-target='#my"+obj.id+"'><i>"+obj.indirizzo+"<br>"+obj.città+"</i></span></p></div>");    
+            } else {    
+                document.write("");  
+            }     
        		 } CompareDate2(); }
        		</script> 
 </div>
