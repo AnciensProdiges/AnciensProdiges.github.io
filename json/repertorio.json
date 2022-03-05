@@ -42,11 +42,11 @@ var testi = [
  },{
    "id":"istri",
    "titolo":"Istrigonia",
-   "pic":"../img/IstrigoniaLoc.png",
+   "pic":"img/istrigoniaLoc.png",
    "car1":"img/istri1.jpeg",
    "car2":"img/istri2.jpeg",
    "car3":"img/istri3.jpeg",
-   "back":"assets/img/istrigoniaLoc.png",
+   "back":"assets/img/cirib2.jpg",
    "sinossi":"Siete stanchi di questa arida, monotona quotidianità? Vi siete svegliati col desiderio di tornare ad un epoca più semplice, più avventurosa, più.. magica? Gli Anciens Prodiges sono lieti di presentare “Istrigonia”, uno spettacolo teatrale comico che affonda un piede nella divertente tradizione clownesca ed un piede nel racconto mitico del “c'era una volta..”, per sognare ancora ad occhi aperti",
    "descr1":"Uno spettacolo per tutta la famiglia di clownerie teatrale, ambientato in un fantasioso, scalcinato medioevo.",
    "descr2":"Due streghe rivali e pasticcione litigano per dimostrarsi migliori l'una dell'altra, facendosi tremendi dispetti come solo due sorelle possono farsi. ",
