@@ -128,7 +128,7 @@ Prossimi appuntamenti</h2></a>
            	var todayDate = new Date(); //Today Date    
            	var dateJason = new Date(obj.data);    
            	if (todayDate < dateJason) {    
-               document.write("<div class='card future' id='"+obj.id+"'><h4><a href="+obj.link+"><b>"+obj.titolo+"</b></a></h4><div class='etichetta'>"+obj.spec+"</div><a href="+obj.link+"><img class='card-img' src='"+ obj.pic + "'></a><p><br><b>"+obj.giorno+" "+obj.mese+", "+" alle ore "+obj.orario+"</b><br><small>"+obj.presso+"<br><span class='mostra'data-target='#my"+obj.id+"'><i>"+obj.indirizzo+"<br>"+obj.città+"</i></small></span></p></div>");    
+               document.write("<div class='card future' id='"+obj.id+"'><h4><a href="+obj.link+"><b>"+obj.titolo+"</b></a></h4><a href="+obj.link+"><img class='card-img' src='"+ obj.pic + "'></a><p><br><b>"+obj.giorno+" "+obj.mese+", "+" alle ore "+obj.orario+"</b><br><small>"+obj.presso+"<br><span class='mostra'data-target='#my"+obj.id+"'><i>"+obj.indirizzo+"<br>"+obj.città+"</i></small></span></p></div>");    
 			}else {    
                 document.write("");    
             }    
